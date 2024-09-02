@@ -23,12 +23,39 @@
 #interface .cabecalho {
     display: block;
     width: 70%;
-    margin: 0 auto;
-    border: 1px solid green;
+    margin: 0 auto 2rem auto;
 }
 
 #interface .cabecalho h2 {
     display: block;
     text-align: center;
     text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+#interface main {
+    border: 1px solid yellow;
+}
+
+#interface table {
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+#interface table button {
+    display: block;
+    width: 45px;
+    height: 45px;
+    font-size: 1.5rem;
+}
+
+#interface table button#bt-acce {
+    font-size: .8rem;
+    font-weight: bold;
+    color: #7e0a0a;
+}
+
+#interface table #bt-plus, 
+#interface table #bt-equal {
+    height: 102px;
 }
